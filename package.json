@@ -1,0 +1,25 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "start-no-sql": "nodemon app-no-sql.js",
+    "start-no-sql-odm": "nodemon app-no-sql-odm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.10",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
